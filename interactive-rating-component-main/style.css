@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5em;
+    max-width: 25em;
+    border-radius: 1.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+}
+
+.favorite img {
+    background-color: hsla(216, 12%, 54%, 0.178);
+    padding: .9em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.content {
+    margin-bottom: 1.5em;
+}
+
+.ratings {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.rating-icon {
+    padding: 1.2em;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.178);
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.rating-icon:active {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.rating-icon:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+
+
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: .8em;
+}
+
+.thank-you img {
+    margin-bottom: 1.4em;
+}
+
+.selection {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.158);
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    margin-top: 1.5em;
+    padding: .7em;
+    border: none;
+    border-radius: 1.2em;
+    letter-spacing: .3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+    display: none;
+}
